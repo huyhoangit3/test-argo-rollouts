@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: rollouts-canary
-        image: nghoangviet/python-api:production
+        image: nghoangviet/python-api:staging
         ports:
         - name: http
           containerPort: 5000
